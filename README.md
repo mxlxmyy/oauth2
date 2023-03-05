@@ -1,8 +1,8 @@
-## oauth2.0
+# oauth2.0
 for thinkphp5.1
 
 
-# 密钥生成：
+## 密钥生成：
 生成原始 RSA私钥文件
 openssl genrsa -out rsa_private_key.pem 2048
 
