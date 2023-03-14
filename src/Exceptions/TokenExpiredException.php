@@ -1,5 +1,5 @@
 <?php 
-namespace Zewail\Api\Exceptions;
+namespace zmoauth2\Exceptions;
 /**
  * @author   Chan Zewail <chanzewail@gmail.com>
  * @license  https://opensource.org/licenses/MIT MIT

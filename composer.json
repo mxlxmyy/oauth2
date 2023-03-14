@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "oauth2\\": "src/oauth2"
+            "zmoauth2\\": "src/"
         }
     }
 }

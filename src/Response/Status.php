@@ -1,8 +1,8 @@
 <?php
-namespace Zewail\Api\Response;
+namespace zmoauth2\Response;
 
-use Zewail\Api\Exceptions\ResponseException;
-use Zewail\Api\Http\Response;
+use zmoauth2\Exceptions\ResponseException;
+use zmoauth2\Http\Response;
 
 class Status {
 

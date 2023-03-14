@@ -1,8 +1,8 @@
 <?php 
-namespace Zewail\Api;
+namespace zmoauth2;
 
-use Zewail\Api\Response\Factory as ResponseFactory;
-use Zewail\Api\JWT\Factory as JWTFactory;
+use zmoauth2\Response\Factory as ResponseFactory;
+use zmoauth2\JWT\Factory as JWTFactory;
 use think\Config;
 
 /**

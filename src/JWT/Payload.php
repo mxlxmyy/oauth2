@@ -1,7 +1,7 @@
 <?php 
-namespace Zewail\Api\JWT;
+namespace zmoauth2\JWT;
 
-use Zewail\Api\JWT\Factories\Claims\Collection;
+use zmoauth2\JWT\Factories\Claims\Collection;
 
 /**
  * @author   Chan Zewail <chanzewail@gmail.com>

@@ -1,10 +1,10 @@
 <?php 
-namespace Zewail\Api\Response;
+namespace zmoauth2\Response;
 
-use Zewail\Api\Http\Response;
-use Zewail\Api\Setting\Set;
-use Zewail\Api\Exceptions\TypeErrorException;
-use Zewail\Api\Exceptions\ResponseException;
+use zmoauth2\Http\Response;
+use zmoauth2\Setting\Set;
+use zmoauth2\Exceptions\TypeErrorException;
+use zmoauth2\Exceptions\ResponseException;
 
 use Config;
 use ErrorException;
@@ -85,7 +85,7 @@ class Factory extends Status
      * 设置需要保留的字段
      *
      * @param  array
-     * @return Zewail\Api\Http\Response
+     * @return zmoauth2\Http\Response
      */
     public function only($filter = null)
     {
@@ -97,7 +97,7 @@ class Factory extends Status
      * 设置需要排除的字段
      *
      * @param  array
-     * @return Zewail\Api\Http\Response
+     * @return zmoauth2\Http\Response
      */
     public function except($filter = null)
     {
@@ -110,7 +110,7 @@ class Factory extends Status
      * 
      * @param  think\Model
      * @param  $filter
-     * @return Zewail\Api\Http\Response    
+     * @return zmoauth2\Http\Response    
      */
     public function item($item, $filter = null)
     {
@@ -128,7 +128,7 @@ class Factory extends Status
      * 多个模型的响应
      *
      * @param  think\Model
-     * @return Zewail\Api\Http\Response
+     * @return zmoauth2\Http\Response
      */
     public function collection($collection, $filter = null)
     {

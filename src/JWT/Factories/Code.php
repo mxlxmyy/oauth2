@@ -1,13 +1,13 @@
 <?php
-namespace Zewail\Api\JWT\Factories;
+namespace zmoauth2\JWT\Factories;
 
-use Zewail\Api\JWT\Library\UrlSafeBase64;
+use zmoauth2\JWT\Library\UrlSafeBase64;
 use Config;
-use Zewail\Api\Setting\Set;
-use Zewail\Api\Exceptions\JWTException;
-use Zewail\Api\Exceptions\TokenExpiredException;
-use Zewail\Api\Exceptions\TokenInvalidException;
-use Zewail\Api\Exceptions\TokenNotBeforeException;
+use zmoauth2\Setting\Set;
+use zmoauth2\Exceptions\JWTException;
+use zmoauth2\Exceptions\TokenExpiredException;
+use zmoauth2\Exceptions\TokenInvalidException;
+use zmoauth2\Exceptions\TokenNotBeforeException;
 
 /**
  * @author   Chan Zewail <chanzewail@gmail.com>

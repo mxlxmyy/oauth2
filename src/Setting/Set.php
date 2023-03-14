@@ -1,5 +1,5 @@
 <?php 
-namespace Zewail\Api\Setting;
+namespace zmoauth2\Setting;
 
 use Config;
 

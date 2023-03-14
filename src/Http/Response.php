@@ -1,9 +1,9 @@
 <?php 
-namespace Zewail\Api\Http;
+namespace zmoauth2\Http;
 
 use think\response\Json as JsonResponse;
-use Zewail\Api\Serializers\DataArraySerializer;
-use Zewail\Api\Serializers\ArraySerializer;
+use zmoauth2\Serializers\DataArraySerializer;
+use zmoauth2\Serializers\ArraySerializer;
 use Config;
 
 /**

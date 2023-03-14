@@ -1,5 +1,5 @@
 <?php 
-namespace Zewail\Api\Facades;
+namespace zmoauth2\Facades;
 
 use think\Facade;
 
@@ -12,6 +12,6 @@ class Response extends Facade
 {
     protected static function getFacadeClass()
     {
-        return 'Zewail\Api\Response\Factory';
+        return 'zmoauth2\Response\Factory';
     }
 }

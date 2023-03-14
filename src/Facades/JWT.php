@@ -1,5 +1,5 @@
 <?php
-namespace Zewail\Api\Facades;
+namespace zmoauth2\Facades;
 
 use think\Facade;
 
@@ -12,6 +12,6 @@ class JWT extends Facade
 {
     protected static function getFacadeClass()
     {
-        return 'Zewail\Api\JWT\Factory';
+        return 'zmoauth2\JWT\Factory';
     }
 }

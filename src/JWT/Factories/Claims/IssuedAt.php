@@ -1,5 +1,5 @@
 <?php
-namespace Zewail\Api\JWT\Factories\Claims;
+namespace zmoauth2\JWT\Factories\Claims;
 
 /**
  * @author   Chan Zewail <chanzewail@gmail.com>

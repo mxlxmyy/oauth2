@@ -1,8 +1,8 @@
 <?php 
-namespace Zewail\Api\Exceptions;
+namespace zmoauth2\Exceptions;
 
 use think\exception\Handle;
-use Zewail\Api\Http\Response;
+use zmoauth2\Http\Response;
 use Exception;
 
 /**

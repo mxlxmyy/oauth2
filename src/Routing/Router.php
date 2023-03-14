@@ -1,10 +1,10 @@
 <?php
-namespace Zewail\Api\Routing;
+namespace zmoauth2\Routing;
 
 use Config;
 use Request;
 use Closure;
-use Zewail\Api\Setting\Set;
+use zmoauth2\Setting\Set;
 
 /**
  * @author   Chan Zewail <chanzewail@gmail.com>

@@ -1,13 +1,13 @@
 <?php 
-namespace Zewail\Api\JWT\Factories;
+namespace zmoauth2\JWT\Factories;
 
-use Zewail\Api\JWT\Factories\Claims\Audience;
-use Zewail\Api\JWT\Factories\Claims\Expiration;
-use Zewail\Api\JWT\Factories\Claims\IssuedAt;
-use Zewail\Api\JWT\Factories\Claims\Issuer;
-use Zewail\Api\JWT\Factories\Claims\JwtId;
-use Zewail\Api\JWT\Factories\Claims\NotBefore;
-use Zewail\Api\JWT\Factories\Claims\Subject;
+use zmoauth2\JWT\Factories\Claims\Audience;
+use zmoauth2\JWT\Factories\Claims\Expiration;
+use zmoauth2\JWT\Factories\Claims\IssuedAt;
+use zmoauth2\JWT\Factories\Claims\Issuer;
+use zmoauth2\JWT\Factories\Claims\JwtId;
+use zmoauth2\JWT\Factories\Claims\NotBefore;
+use zmoauth2\JWT\Factories\Claims\Subject;
 use think\Container;
 use DateTime;
 use DateInterval;

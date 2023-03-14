@@ -1,18 +1,18 @@
 <?php
-namespace Zewail\Api\JWT;
+namespace zmoauth2\JWT;
 
 use Config;
 use Request;
 use think\Model;
 use think\facade\Cookie;
-use Zewail\Api\Exceptions\JWTException;
-use Zewail\Api\Exceptions\UnauthenticateException;
-use Zewail\Api\Setting\Set;
-use Zewail\Api\JWT\Factories\Code;
-use Zewail\Api\JWT\Factories\Payload as PayloadFactory;
-use Zewail\Api\JWT\Factories\Claims\Collection;
-use Zewail\Api\JWT\Factories\Claims\Subject;
-use Zewail\Api\JWT\Factories\Claims\Custom;
+use zmoauth2\Exceptions\JWTException;
+use zmoauth2\Exceptions\UnauthenticateException;
+use zmoauth2\Setting\Set;
+use zmoauth2\JWT\Factories\Code;
+use zmoauth2\JWT\Factories\Payload as PayloadFactory;
+use zmoauth2\JWT\Factories\Claims\Collection;
+use zmoauth2\JWT\Factories\Claims\Subject;
+use zmoauth2\JWT\Factories\Claims\Custom;
 
 /**
  * @author   Chan Zewail <chanzewail@gmail.com>

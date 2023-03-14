@@ -1,6 +1,9 @@
 # oauth2.0
 for thinkphp5.1
 
+## 实力文档
+/doc/*
+
 
 ## 密钥生成：
 生成原始 RSA私钥文件

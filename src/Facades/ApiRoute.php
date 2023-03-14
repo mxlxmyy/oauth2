@@ -1,5 +1,5 @@
 <?php
-namespace Zewail\Api\Facades;
+namespace zmoauth2\Facades;
 
 use think\Facade;
 
@@ -12,6 +12,6 @@ class ApiRoute extends Facade
 {
     protected static function getFacadeClass()
     {
-        return 'Zewail\Api\Routing\Router';
+        return 'zmoauth2\Routing\Router';
     }
 }

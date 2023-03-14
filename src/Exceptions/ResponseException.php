@@ -1,5 +1,5 @@
 <?php 
-namespace Zewail\Api\Exceptions;
+namespace zmoauth2\Exceptions;
 
 use think\exception\HttpException;
 /**

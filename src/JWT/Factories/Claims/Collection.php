@@ -1,5 +1,5 @@
 <?php 
-namespace Zewail\Api\JWT\Factories\Claims;
+namespace zmoauth2\JWT\Factories\Claims;
 
 use think\Collection as ThinkCollection;
 

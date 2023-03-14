@@ -1,5 +1,5 @@
 <?php 
-namespace Zewail\Api\Serializers;
+namespace zmoauth2\Serializers;
 
 /**
  * @author   Chan Zewail <chanzewail@gmail.com>
