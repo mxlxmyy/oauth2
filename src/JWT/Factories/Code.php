@@ -71,8 +71,8 @@ class Code
         }
 
         if (isset($this->config['privateKeyPath']) && $this->config['privateKeyPath'] && isset($this->config['publicKeyPath']) && $this->config['publicKeyPath']) {
-            $this->privateKeyPath = 'file://' . $this->config['privateKeyPath'];
-            $this->publicKeyPath = 'file://' . $this->config['publicKeyPath'];
+            $this->privateKeyPath = 'file://' . env('root_path') .$this->config['privateKeyPath'];
+            $this->publicKeyPath = 'file://' . env('root_path') .$this->config['publicKeyPath'];
         }
 
         if (empty($this->algorithms[$this->algorithm])) {
